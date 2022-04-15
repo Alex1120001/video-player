@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="generic.css">
 </head>
+
 <body>
     <style>
-        body{
-            margin: 0;
-            padding: 0;
-        }
-        video{
+        video {
+            
+           width: 100%;
             max-height: 400px;
-            width: 100%;
-            background-color:#000;
         }
     </style>
-    <video src="./video_2022-04-14_14-03-31.mp4" controls playsinline loop muted autoplay></video>
+    <video autoplay="autoplay" loop="" class="myVideo" id="myVideo">
+        <source src="./2940891681.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
 </body>
+
 </html>
